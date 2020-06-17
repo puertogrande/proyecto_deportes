@@ -1,0 +1,13 @@
+body{
+    background-color: #2803a3;
+}
+img{
+    opacity: 0.8;
+    width: 80%;
+    margin-left: 5%;
+    border-radius: 2%;
+}
+.todo{
+    width: 80%;
+    margin: auto;
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		   <!-- Required meta tags -->
+		   <meta charset="utf-8">
+		   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		   <title>Inicio</title>
+		   <!-- Bootstrap CSS -->
+		   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		  <!--CSS General -->
+		  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		  <link rel="stylesheet" type="text/css" href="css/general.css">
+		  <!--CSS Mensaje -->
+		  <link rel="stylesheet" type="text/css" href="css/draggable.css">    
+	</head>
+	<body>
+	    <header> 
+	        <div class="container">
+	            <div class="row justify-content-center">
+	            <h1 class="text-light"> Sportstat.com </h1>
+	             <img src="img/icono.png" id=icono alt="competicion"> 
+	            </div>
+	        </div>
+	    </header>
+	
+	    <nav class="navbar navbar-expand-lg navbar-light bg-dark d-flex justify-content-between font-weight-bold mb-5">
+	        <a class="navbar-item text-light" href="index.html">Inicio</a>
+	        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	            <span class="navbar-toggler-icon"></span>
+	        </button>
+	        <div class="collapse navbar-collapse" id="navbarNav">
+	            <ul class="navbar-nav">
+	                <li class="nav-item">
+	                    <a class="nav-link text-light" href="competiciones.html">Competiciones</a>
+	                </li>
+	                <li class="nav-item">
+                    	<a class="nav-link disabled text-light" href="jugadores.html">Jugadores</a>
+                	</li>
+	                <li class="nav-item">
+	                       <a class="nav-link disabled text-light" href="crear.html">Crear</a>
+	                </li>
+	                <li class="nav-item">
+	                       <a class="nav-link disabled text-light" href="login.html">Iniciar Sesión</a>
+	                </li>
+	                <li class="nav-item">
+	                       <a class="nav-link disabled text-light " href="registro.html">Registro</a>
+	                </li>
+	                <li class="nav-item">
+                       <a class="nav-link disabled text-light" href="cerrar_sesion.html">Cerrar Sesion</a>
+                	</li>
+                	<li class="nav-item">
+                       <a class="nav-link disabled text-light" id="usuario_nombre" href="#"></a>
+                	</li>
+	            </ul>
+	        </div>
+	    </nav>
+	    <div class="contenido">
+		    <div id="draggable" class="ui-widget-content">
+			  	<button id="cerrar">Cerrar</button>
+			  	<p>Necesitas registrarte para hacer cambios en la aplicación</p> 
+			</div>    
+		</div> 
+	    <!-- Mostrar la información si no se encuentran los jugadores disponibles -->
+	    <footer class="page-footer font-small blue bg-dark">
+	        <!-- Copyright -->
+	        <div class="footer-copyright text-center py-3 text-light">2020 Copyright:
+	          <a href="https://mdbootstrap.com/"> Sportstat.com</a>
+	        </div>
+	        <!-- Copyright -->
+	    </footer>
+	    
+	    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<!-- Llamada al javascript del proyecto -->
+	    <script src="js/paginas_proyecto/necesitas_registrarte.js"></script>
+	</body>
+</html>

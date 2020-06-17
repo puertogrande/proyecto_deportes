@@ -1,0 +1,20 @@
+version: '3'
+services: 
+    web:
+        build: .
+        ports:
+         - "8080:8080"
+        links:
+         - "db:proyecto_deportes"
+    db:
+        build: ./sql
+
+        ports:
+         - "3306:3306"
+          
+    PhpMyAdmin:
+        image: nazarpc/phpmyadmin
+        ports:
+         - "8090:80"
+        links:
+         - db:mysql

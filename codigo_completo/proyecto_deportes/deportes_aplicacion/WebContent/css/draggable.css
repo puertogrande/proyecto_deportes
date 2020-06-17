@@ -1,0 +1,25 @@
+
+#draggable {
+    background-color: #f2f257; 
+    position: absolute;
+    width: 30%;
+    top:50vh; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border: 2px dashed red;
+    display:none;
+    }
+
+#draggable p{
+    padding-left:10% ;
+    padding-top:2%;
+    color: silver;
+    font-size: 30px;
+}
+
+#cerrar{
+    margin-left: 80%;
+    width: 20%;
+}

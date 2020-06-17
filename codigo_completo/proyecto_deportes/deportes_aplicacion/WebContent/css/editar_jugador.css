@@ -1,0 +1,25 @@
+.Userimg img{
+	height:300px;
+	width:300px;
+}
+
+
+@media (min-width: 1400px) {
+   .carta{
+	margin-left:10%;
+	}
+	
+	.Nombre{
+		font-size:50px;
+	}
+	
+	h1{
+		font-size:50px;
+		margin-bottom:30px;
+	}
+
+	.Descripcion, .Nacionalidad, .Fecha_Nacimiento, .Posicion{
+		font-size:25px;
+		padding-top:30px;
+	}
+}

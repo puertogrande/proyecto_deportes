@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Inicio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!--CSS Login -->
+    <link rel="stylesheet" type="text/css" href="css/login_registro.css"> 
+  </head>
+  <body>
+    <header class="bg-light"> 
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center">
+                <h1 class="text-black"> Sportstat.com </h1>
+                <a href="index.html" class="btn btn-info ml-5 pd-2 align-self-center">Volver al Inicio </a>
+            </div>
+        </div>
+    </header>
+    <div class="todo text-light">
+        <div class="container mt-5 pd-5 mb-5">
+            <div class="row justify-content-center">
+                <h1 class="mt-5"> Inicie sesión en el la aplicación </h1>
+                <h5 class="mt-4">Si no estas registrado <a class="text-warning" href="registro.html">registrate</a> para colaborar a incluir más información y 
+                    mejorar nuestra aplicación.
+                </h5>
+            </div>
+        </div>
+        
+        <div class="row d-flex justify-content-around">
+            <div class="col-md-6 col-sm-6 col-xs-12 mt-5 mb-5">
+                <img src="img/champions_imagen.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+
+            <form class="col-md-6 col-sm-6 col-xs-12 mt-5 mb-5">
+                <div class="form-group">
+                <label for="Nick">Nick</label>
+                <input type="text" class="form-control" id="nick" aria-describedby="nick" placeholder="Introduce tu Nick">
+                </div>
+                <div class="form-group">
+                <label for="exampleInputPassword1">Contraseña</label>
+                <input type="password" class="form-control" id="password" placeholder="Contraseña">
+                </div>
+                <p id="mensaje"> </p>
+                <button type="button" id="enviar" class="btn btn-success">Enviar</button>
+                <a href="registro.html" class="btn btn-success">Registro</a>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"> </script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	 <!-- Llamada al javascript del proyecto -->
+     <script src="js/paginas_proyecto/login.js"></script>
+  </body>
